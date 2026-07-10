@@ -1,0 +1,527 @@
+term,category,type,notes;;
+gg,GIRIA,word,giria neutra de fim de partida (good game);;
+feed,GIRIA,word,giria descritiva (morrer muito sem ganho ao adversario);;
+feedar,GIRIA,word,variante verbal de feed;;
+carry,GIRIA,word,jogador que carrega o time;;
+carregar,GIRIA,word,sentido de carry em portugues;;
+afk,GIRIA,word,away from keyboard;;
+smurf,GIRIA,word,conta secundaria de jogador experiente;;
+clutch,GIRIA,word,jogada decisiva em desvantagem;;
+nerf,GIRIA,word,reducao de poder de algo no jogo;;
+buff,GIRIA,word,aumento de poder de algo no jogo;;
+lag,GIRIA,word,atraso de conexao;;
+ping,GIRIA,word,latencia de conexao;;
+main,GIRIA,word,personagem/posicao preferida do jogador;;
+ranqueada,GIRIA,word,modo competitivo;;
+elo,GIRIA,word,nivel de classificacao competitiva;;
+throw,GIRIA,word,perder partida de forma evitavel (giria descritiva neutra);;
+throwar,GIRIA,word,variante verbal de throw;;
+gank,GIRIA,word,emboscada em equipe;;
+respawn,GIRIA,word,reaparecimento apos morte;;
+kdr,GIRIA,word,kill death ratio;;
+mvp,GIRIA,word,melhor jogador da partida;;
+ace,GIRIA,word,eliminar todo o time adversario;;
+tilt,GIRIA,word,estado de frustracao/tomada de decisao ruim;;
+tiltado,GIRIA,word,variante adjetiva de tilt;;
+pickban,GIRIA,word,fase de escolha e banimento de personagens;;
+farm,GIRIA,word,acumular recursos/experiencia;;
+farmar,GIRIA,word,variante verbal de farm;;
+jungle,GIRIA,word,rota/posicao de jogo (selva);;
+lane,GIRIA,word,rota de jogo;;
+mid,GIRIA,word,rota central;;
+support,GIRIA,word,papel de suporte;;
+ult,GIRIA,word,habilidade definitiva;;
+combo,GIRIA,word,sequencia de habilidades/golpes;;
+hitbox,GIRIA,word,area de colisao do personagem;;
+fps,GIRIA,word,quadros por segundo / genero de jogo de tiro;;
+dpi,GIRIA,word,sensibilidade do mouse;;
+hype,GIRIA,word,expectativa/entusiasmo elevado;;
+hypado,GIRIA,word,variante adjetiva de hype;;
+clip,GIRIA,word,trecho gravado de gameplay;;
+clipar,GIRIA,word,variante verbal de clip;;
+nutella,GIRIA,word,giria de comunidade (jogador habilidoso; uso ironico);
+bugado,GIRIA,word,comportamento inesperado por erro de software;;
+default,GIRIA,word,configuracao padrao;;
+spawn,GIRIA,word,ponto de surgimento no mapa;;
+headshot,GIRIA,word,acerto na cabeca;;
+wallbang,GIRIA,word,acerto atraves de parede;;
+retake,GIRIA,word,retomada de area no jogo;;
+defuse,GIRIA,word,desarmar bomba no jogo;;
+oneshot,GIRIA,word,eliminacao com um unico golpe;;
+snipe,GIRIA,word,abate a longa distancia;;
+sniper,GIRIA,word,arma/jogador especializado em longa distancia;;
+camper,GIRIA,word,jogador que fica parado esperando inimigos (giria descritiva neutra);;
+lobby,GIRIA,word,sala de espera antes da partida;;
+squad,GIRIA,word,grupo/equipe de jogadores;;
+premade,GIRIA,word,grupo formado previamente;;
+soloq,GIRIA,word,fila solo em modo competitivo;;
+rage\s*quit,GIRIA,phrase_pattern,abandonar a partida por frustracao;;
+eco\s*round,GIRIA,phrase_pattern,rodada economica (termo tatico de fps);;
+noob,GIRIA,word,giria neutra para jogador novato;;
+noob,INS,word_ambiguous,ofensivo apenas quando direcionado (mencao ou pronome de 2a pessoa);;
+bot,GIRIA,word,giria neutra usada para jogador fraco/bot da partida;;
+bot,INS,word_ambiguous,ofensivo apenas quando direcionado;;
+hacker,GIRIA,word,acusacao tecnica usada tambem em tom de brincadeira;;
+hacker,INS,word_ambiguous,ofensivo apenas quando direcionado;;
+cheater,GIRIA,word,sinonimo informal de hacker;;
+cheater,INS,word_ambiguous,ofensivo apenas quando direcionado;;
+trash,GIRIA,word,giria emprestada do ingles (trash talk);;
+trash,INS,word_ambiguous,ofensivo apenas quando direcionado;;
+lixo,INS,word,ataque ao desempenho/habilidade;;
+inutil,INS,word,ataque ao desempenho/habilidade;;
+ruim,INS,word,ataque ao desempenho/habilidade;;
+mane,INS,word,ataque a habilidade/identidade;;
+zero,INS,word_ambiguous,ofensivo apenas quando direcionado (ex. joga zero);;
+fracassado,INS,word,ataque a identidade/desempenho;;
+perdedor,INS,word,ataque a identidade/desempenho;;
+palhaco,INS,word,ataque a identidade;;
+imbecil,INS,word,ataque a identidade;;
+idiota,INS,word,ataque a identidade;;
+burro,INS,word,ataque a identidade;;
+retardado,INS,word,ataque a identidade (tambem capacitista);;
+otario,INS,word,ataque a identidade;;
+jumento,INS,word,ataque a identidade;;
+trouxa,INS,word,ataque a identidade;;
+mediocre,INS,word,ataque ao desempenho;;
+chato,INS,word,ataque a identidade leve;;
+merda,OBS,word,obscenidade generica sem alvo especifico;;
+bosta,OBS,word,obscenidade generica sem alvo especifico;;
+porra,OBS,word,obscenidade generica sem alvo especifico;;
+caralho,OBS,word,obscenidade generica sem alvo especifico;;
+fdp,OBS,word,obscenidade/ofensa generica;;
+puta,OBS,word,obscenidade generica;;
+desgracado,OBS,word,obscenidade generica;;
+arrombado,OBS,word,obscenidade generica;;
+cuzao,OBS,word,obscenidade generica;;
+foda,OBS,word_ambiguous,obscenidade em alguns usos; tambem giria neutra (ex. isso foi foda);
+viado,DO,word,termo associado a homofobia (curado com referencia a ToLD-BR/HateBR);;
+bicha,DO,word,termo associado a homofobia (curado com referencia a ToLD-BR/HateBR);;
+sapatao,DO,word,termo associado a lesbofobia (curado com referencia a ToLD-BR/HateBR);;
+macaco,DO,word_ambiguous,termo associado a racismo quando direcionado a pessoa;;
+piranha,DO,word,termo associado a misoginia;;
+vadia,DO,word,termo associado a misoginia;;
+favelado,DO,word,termo associado a discriminacao de classe/origem;;
+nordestino\s+de\s+merda,DO,phrase_pattern,padrao associado a xenofobia regional;;
+vou\s+(te\s+)?matar,AME,phrase_pattern,ameaca direta de violencia;;
+vou\s+(te\s+)?destruir,AME,phrase_pattern,ameaca de violencia/dano;;
+vou\s+acabar\s+com\s+(voc[eê]|tu|vc),AME,phrase_pattern,ameaca de violencia/dano direcionada;;
+vou\s+te\s+bater,AME,phrase_pattern,ameaca direta de agressao fisica;;
+vou\s+quebrar\s+(a\s+)?(sua\s+)?cara,AME,phrase_pattern,ameaca direta de agressao fisica;;
+(vc|voc[eê])\s+vai\s+morrer,AME,phrase_pattern,ameaca de morte;;
+vou\s+te\s+ca[cç]ar,AME,phrase_pattern,ameaca de perseguicao/violencia;;
+vou\s+(te\s+)?ddosar,AME,phrase_pattern,ameaca de ataque ciberseguranca;;
+vou\s+invadir\s+(sua\s+)?conta,AME,phrase_pattern,ameaca de invasao de conta;;
+vou\s+te\s+achar,AME,phrase_pattern,ameaca de perseguicao/exposicao;;
+clutchei,GIRIA,word,variante verbal passada de clutch (ex. clutchei o round);;
+clutchar,GIRIA,word,variante verbal de clutch;;
+fragger,GIRIA,word,jogador especializado em eliminar adversarios;;
+igl,GIRIA,word,in-game leader; lider tattico da equipe;
+rushado,GIRIA,word,variante adjetiva de rush (ir rapido e agressivo);;
+rushar,GIRIA,word,variante verbal de rush;;
+push,GIRIA,word,avanco agressivo em direcao ao objetivo;;
+pushear,GIRIA,word,variante verbal de push;;
+flank,GIRIA,word,ataque pelo lado/costas do inimigo;;
+flankar,GIRIA,word,variante verbal de flank;;
+poke,GIRIA,word,causar dano sem engajar completamente;;
+pokear,GIRIA,word,variante verbal de poke;;
+cooldown,GIRIA,word,tempo de recarga de habilidade;;
+winrate,GIRIA,word,taxa de vitorias do jogador;;
+grind,GIRIA,word,farmar repetitivamente para progredir;;
+grindar,GIRIA,word,variante verbal de grind;;
+meta,GIRIA,word,estrategia dominante no momento atual do jogo;;
+broken,GIRIA,word,personagem ou mecanica excessivamente forte (giria neutra/descritiva);;
+op,GIRIA,word,overpowered; muito forte/desequilibrado;
+overpower,GIRIA,word,sinonimo de op; algo muito forte;
+bait,GIRIA,word,atrair inimigo para uma armadilha; tambem enganar aliado;
+baitar,GIRIA,word,variante verbal de bait;;
+grief,GIRIA,word,atrapalhar propositalmente o proprio time;;
+griefar,GIRIA,word,variante verbal de grief;;
+feedou,GIRIA,word,variante verbal passada de feed;;
+carrancudo,GIRIA,word,jogador que fica bravo e nao comunica (uso informal);;
+flamer,GIRIA,word,jogador que insulta o proprio time no chat;;
+flame,GIRIA,word,insultar o proprio time; trollar pelo chat;
+flameou,GIRIA,word,variante verbal passada de flame;;
+toxic,GIRIA,word,comportamento negativo no jogo (giria descritiva);;
+toxicity,GIRIA,word,nivel de comportamento negativo; sinonimo de toxic;
+smurfar,GIRIA,word,variante verbal de smurf (jogar em conta baixa propositalmente);;
+boostar,GIRIA,word,elevar elo de outro jogador de forma artificial;;
+boost,GIRIA,word,elevacao artificial de elo/ranking;;
+boostado,GIRIA,word,jogador que subiu de elo com ajuda de outro; uso depreciativo;
+gank,GIRIA,word,emboscada coordenada de jungler ou aliados (entrada duplicada para clareza de tipo);;
+rotation,GIRIA,word,deslocamento tatico entre rotas/posicoes;;
+rotar,GIRIA,word,variante verbal de rotation;;
+snowball,GIRIA,word,vantagem que cresce exponencialmente;;
+snowballar,GIRIA,word,variante verbal de snowball;;
+dive,GIRIA,word,atacar inimigo dentro da torre adversaria;;
+divar,GIRIA,word,variante verbal de dive;;
+peel,GIRIA,word,proteger aliado de ameacas adversarias;;
+peelando,GIRIA,word,variante gerundio de peel;;
+wipe,GIRIA,word,eliminar todo o time adversario de uma vez;;
+engage,GIRIA,word,iniciar o combate;;
+engajar,GIRIA,word,variante verbal de engage;;
+disengage,GIRIA,word,recuar do combate de forma tattica;;
+desengajar,GIRIA,word,variante verbal de disengage;;
+zoneamento,GIRIA,word,controlar area do mapa impedindo passagem do adversario;;
+zone,GIRIA,word,versao em ingles de zoneamento;;
+draft,GIRIA,word,fase de selecao de personagens antes da partida;;
+splitpush,GIRIA,word,empurrar rota separado do time para criar pressao;;
+backdoor,GIRIA,word,atacar estrutura adversaria sem combate frontal;;
+tp,GIRIA,word,teleporte; habilidade ou item de deslocamento;
+rez,GIRIA,word,ressuscitar aliado (giria de revive);;
+revive,GIRIA,word,acao de ressuscitar um jogador eliminado;;
+stun,GIRIA,word,habilidade que paralisa o adversario;;
+stunado,GIRIA,word,variante adjetiva de stun;;
+kite,GIRIA,word,manter distancia enquanto causa dano;;
+kitar,GIRIA,word,variante verbal de kite;;
+cs,GIRIA,word,creep score; numero de minions/unidades abatidas;
+last hit,GIRIA,phrase_pattern,acerto final em minion para coletar ouro;;
+tiltar,GIRIA,word,variante verbal de tilt (entrar em tilt);;
+inting,GIRIA,word,variante gerundio de int (morrer propositalmente);;
+int,GIRIA,word,morrer de forma intencional ou extremamente descuidada;;
+nerfado,GIRIA,word,variante adjetiva de nerf (personagem que sofreu nerf);;
+buffado,GIRIA,word,variante adjetiva de buff (personagem que recebeu buff);;
+patchado,GIRIA,word,personagem/jogo que recebeu atualizacao recente;;
+patch,GIRIA,word,atualizacao do jogo;;
+hotfix,GIRIA,word,correcao rapida pos-patch;;
+rework,GIRIA,word,reformulacao de personagem ou mecanica;;
+kit,GIRIA,word,conjunto de habilidades de um personagem;;
+passiva,GIRIA,word,habilidade passiva do personagem;;
+ativa,GIRIA,word,habilidade ativa que precisa ser acionada;;
+jungle\s+diff,GIRIA,phrase_pattern,diferenca de desempenho entre os junglers das duas equipes;;
+support\s+diff,GIRIA,phrase_pattern,diferenca de desempenho entre os supports;;
+mid\s+diff,GIRIA,phrase_pattern,diferenca de desempenho entre os midlaners;;
+free\s+elo,GIRIA,phrase_pattern,partida facil que garante subida de elo;;
+ez,GIRIA,word,abreviacao de easy; partida facil (pode ser provocativo);
+ez,INS,word_ambiguous,ofensivo quando direcionado apos vitoria como provocacao;;
+izi,GIRIA,word,variante grafica de ez usada no contexto BR;;
+glhf,GIRIA,word,good luck have fun; saudacao de pre-partida;
+wp,GIRIA,word,well played; elogio ao desempenho;
+nt,GIRIA,word,nice try; usado apos jogada boa que nao obteve resultado;
+rekt,GIRIA,word,destruido/vencido de forma esmagadora; uso neutro ou provocativo;
+rekt,INS,word_ambiguous,ofensivo quando direcionado com tom de humilhacao;;
+owned,GIRIA,word,dominado/vencido amplamente;;
+owned,INS,word_ambiguous,ofensivo quando direcionado com tom de humilhacao;;
+stomp,GIRIA,word,vencer com vantagem esmagadora;;
+stompar,GIRIA,word,variante verbal de stomp;;
+stomp\s+fora,GIRIA,phrase_pattern,expressao BR indicando vitoria esmagadora;;
+ff,GIRIA,word,forfeit; votar para desistir da partida;
+ff15,GIRIA,word,pedir rendicion aos 15 minutos (regra de alguns jogos);;
+surrender,GIRIA,word,renderizacao formal da equipe;;
+reportar,GIRIA,word,denunciar jogador por comportamento toxico;;
+report,GIRIA,word,denuncia formal dentro do sistema do jogo;;
+ban,GIRIA,word,banimento de jogador ou personagem;;
+banido,GIRIA,word,variante adjetiva de ban (conta/jogador banido);;
+suspensao,GIRIA,word,punicao temporaria de conta;;
+mute,GIRIA,word,silenciar jogador no chat/voice;;
+mutar,GIRIA,word,variante verbal de mute;;
+block,GIRIA,word,bloquear jogador na plataforma;;
+blockar,GIRIA,word,variante verbal de block;;
+queue,GIRIA,word,fila de espera para partida;;
+dequeue,GIRIA,word,sair da fila de espera;;
+dodgar,GIRIA,word,sair da partida antes de comecar para evitar composicao ruim;;
+dodge,GIRIA,word,acao de dodgar; tambem esquivar de habilidade no jogo;
+pentakill,GIRIA,word,eliminar cinco adversarios em sequencia (ex. League of Legends);;
+quadrakill,GIRIA,word,eliminar quatro adversarios em sequencia;;
+triplo,GIRIA,word,eliminar tres adversarios em sequencia;;
+double,GIRIA,word,eliminar dois adversarios em sequencia;;
+kill,GIRIA,word,eliminacao de adversario;;
+death,GIRIA,word,morte do proprio personagem;;
+assist,GIRIA,word,assistencia em eliminacao de adversario;;
+streak,GIRIA,word,sequencia de eliminacoes sem morrer;;
+spree,GIRIA,word,serie de eliminacoes consecutivas;;
+multikill,GIRIA,word,multiplas eliminacoes em curto intervalo;;
+baron,GIRIA,word,objetivo neutro de mapa (ex. League of Legends);;
+drake,GIRIA,word,objetivo neutro dragao no mapa;;
+roshan,GIRIA,word,objetivo neutro de mapa (Dota 2);;
+aegis,GIRIA,word,item de ressureicao obtido no Roshan (Dota 2);;
+buyback,GIRIA,word,ressuscitar pagando ouro em Dota 2;;
+deny,GIRIA,word,matar proprio aliado para negar ouro ao adversario (Dota 2);;
+creep,GIRIA,word,unidade neutra ou de rota abativel para ouro/exp;;
+wave,GIRIA,word,fileira de creeps/minions se movendo pela rota;;
+waveclear,GIRIA,word,capacidade de limpar a wave rapidamente;;
+turret,GIRIA,word,torre de defesa no mapa;;
+inibidor,GIRIA,word,estrutura de mapa cujo abate fortalece creeps aliados;;
+nexus,GIRIA,word,estrutura central cuja destruicao encerra a partida (LoL);;
+ancient,GIRIA,word,estrutura central do Dota 2;;
+base,GIRIA,word,area inicial/central da equipe no mapa;;
+jungle\s+camp,GIRIA,phrase_pattern,acampamento de monstros neutros na selva;;
+ward,GIRIA,word,item de visao colocado no mapa;;
+wardar,GIRIA,word,variante verbal de ward;;
+deward,GIRIA,word,remover ward adversaria;;
+sweep,GIRIA,word,remover varias wards adversarias de uma vez;;
+vision,GIRIA,word,visibilidade de area do mapa;;
+fog,GIRIA,word,fog of war; area sem visibilidade;
+callout,GIRIA,word,comunicar posicao de adversario para o time;;
+call,GIRIA,word,decisao tattica anunciada para o time;;
+shot\s*caller,GIRIA,phrase_pattern,jogador que toma as decisoes tatticas em voz;;
+rageado,GIRIA,word,variante adjetiva de rage; muito irritado no jogo;
+raiva,GIRIA,word,estado de anger no contexto de jogo; nao necessariamente ofensivo;
+saltado,GIRIA,word,giria BR para irritado/tilted;;
+saltar,GIRIA,word,variante verbal de saltar (ficar irritado);;
+zoado,INS,word,ataque ao desempenho; jogador que errou feio;
+zoadinho,INS,word,variante diminutiva de zoado; tom ironico/depreciativo;
+nulidade,INS,word,ataque ao desempenho/contribuicao na partida;;
+inexpressivo,INS,word,ataque ao impacto do jogador na partida;;
+patético,INS,word,ataque a identidade/desempenho;;
+patetito,INS,word,variante diminutiva ironica de patético;;
+amador,INS,word,ataque ao nivel de habilidade;;
+iniciante,INS,word_ambiguous,ofensivo apenas quando direcionado em tom de menosprezo;;
+aprendiz,INS,word_ambiguous,ofensivo apenas quando direcionado em tom de menosprezo;;
+feeder,INS,word,ataque ao desempenho; jogador que feeda muito;
+inutil\s+de\s+merda,INS,phrase_pattern,combinacao de insulto e obscenidade direcionada;;
+lixo\s+de\s+jogador,INS,phrase_pattern,ataque composto ao desempenho;;
+jogador\s+horrivel,INS,phrase_pattern,ataque direto ao desempenho;;
+sua\s+mae,OBS,phrase_pattern,obscenidade relacional generica comum no contexto BR;;
+vai\s+tomar\s+no\s+(cu|rabo),OBS,phrase_pattern,obscenidade agressiva sem necessariamente alvo direto;;
+tomar\s+no\s+(cu|rabo),OBS,phrase_pattern,variante de obscenidade agressiva;;
+filho\s+da\s+puta,OBS,phrase_pattern,obscenidade generica intensa;;
+fdp,OBS,word,abreviacao de filho da puta;;
+vai\s+se\s+foder,OBS,phrase_pattern,obscenidade agressiva de dispensa;;
+se\s+fode,OBS,phrase_pattern,variante de obscenidade de dispensa;;
+cago,OBS,word,obscenidade generica de descaso;;
+merd(a|oso),OBS,word,variante adjetiva de merda;;
+desgraça,OBS,word,obscenidade generica; variante de desgracado;
+pqp,OBS,word,abreviacao de puta que pariu; obscenidade generica;
+oxe,GIRIA,word,expressao nordestina de surpresa; giria regional neutra;
+sla,GIRIA,word,abreviacao de sei la; expressao de incerteza;
+nao\s+sei\s+la,GIRIA,phrase_pattern,variante por extenso de sla;;
+slc,GIRIA,word,abreviacao de sei la cara; expressao informal;
+poha,OBS,word,variante fonologica regional de porra; obscenidade generica;
+eita,GIRIA,word,expressao de surpresa; giria regional neutra;
+cara,GIRIA,word,vocativo informal neutro (ex. cara que clutch);;
+mano,GIRIA,word,vocativo informal neutro;;
+brother,GIRIA,word,vocativo informal neutro emprestado do ingles;;
+bro,GIRIA,word,abreviacao de brother; vocativo neutro;
+meu,GIRIA,word,vocativo informal neutro (ex. meu que jogada);;
+vlw,GIRIA,word,abreviacao de valeu; agradecimento informal;
+tmj,GIRIA,word,abreviacao de tamo junto; saudacao/encorajamento;
+salve,GIRIA,word,saudacao informal neutra;;
+flw,GIRIA,word,abreviacao de falou; despedida informal;
+abçs,GIRIA,word,abreviacao de abracos; despedida informal;
+kkkk,GIRIA,word,representacao textual de riso no contexto BR;;
+kkk,GIRIA,word,variante de riso textual (contexto BR; diferente do uso em ingles);
+haha,GIRIA,word,representacao de riso neutra;;
+lol,GIRIA,word,laughing out loud; tambem nome de jogo (League of Legends); neutro
+rs,GIRIA,word,abreviacao de risos; marcador de tom ironico ou de riso leve;
+huehue,GIRIA,word,riso tipicamente associado a jogadores BR; neutro/irônico;
+huehuebr,GIRIA,word,variante estendida de huehue associada a comunidade gamer BR;;
+trollar,GIRIA,word,variante verbal de troll (provocar/atrapalhar por diversao);;
+troll,GIRIA,word,jogador que atrapalha de proposito por diversao;;
+trollagem,GIRIA,word,ato de trollar; comportamento de troll;
+bm,GIRIA,word,bad manners; comportamento desrespeitoso pos-partida;
+bmer,GIRIA,word,praticar bad manners; provocar adversario apos vitoria;
+stream,GIRIA,word,transmissao ao vivo de gameplay;;
+streamer,GIRIA,word,pessoa que faz stream;;
+live,GIRIA,word,transmissao ao vivo; sinonimo de stream no contexto BR;
+youtuber,GIRIA,word,criador de conteudo de games no YouTube;;
+content\s*creator,GIRIA,phrase_pattern,criador de conteudo de jogos em geral;;
+pro\s*player,GIRIA,phrase_pattern,jogador profissional de esports;;
+esport,GIRIA,word,esporte eletronico; competicao profissional de games;
+lan\s*house,GIRIA,phrase_pattern,estabelecimento com computadores para jogar (comum no BR);;
+cybercafe,GIRIA,word,sinonimo de lan house;;
+account,GIRIA,word,conta de jogador na plataforma;;
+smurf\s+account,GIRIA,phrase_pattern,conta secundaria de jogador experiente (mais explicita);;
+scripter,INS,word,acusacao de uso de script/hack automatizado;;
+scriptar,INS,word,variante verbal de scriptar (usar script ilegal);;
+wallhack,INS,word,acusacao de usar hack de visao atraves de paredes;;
+aimbot,INS,word,acusacao de usar hack de mira automatica;;
+cheat\s+engine,INS,phrase_pattern,acusacao de uso de software de trapaça;;
+trapaceiro,INS,word,sinonimo de cheater em portugues;;
+trapacear,INS,word,variante verbal de trapacear;;
+pay\s*to\s*win,GIRIA,phrase_pattern,critica a modelo de jogo onde pagar da vantagem competitiva;;
+p2w,GIRIA,word,abreviacao de pay to win;;
+skin,GIRIA,word,aparencia cosmetica do personagem ou item;;
+cosmético,GIRIA,word,item visual sem efeito mecanico no jogo;;
+passe\s+de\s+batalha,GIRIA,phrase_pattern,battle pass; sistema de progressao sazonal;
+battlepass,GIRIA,word,sinonimo de passe de batalha;;
+loot\s*box,GIRIA,phrase_pattern,caixa de recompensas aleatorias;;
+caixa,GIRIA,word,abreviacao informal de loot box no contexto BR;;
+ranked,GIRIA,word,modo competitivo em ingles; sinonimo de ranqueada;
+unranked,GIRIA,word,modo nao competitivo;;
+placement,GIRIA,word,partidas de classificacao inicial na temporada;;
+temporada,GIRIA,word,ciclo competitivo com inicio e fim definidos;;
+reset,GIRIA,word,reinicio do ranking no começo de nova temporada;;
+promoção,GIRIA,word,serie de partidas para subir de divisao;;
+divisao,GIRIA,word,subdivisao dentro de um elo/tier;;
+tier,GIRIA,word,nivel de classificacao amplo (ex. ouro tier);;
+diamond,GIRIA,word,tier de elo alto em varios jogos;;
+challenger,GIRIA,word,tier mais alto em League of Legends e similares;;
+radiant,GIRIA,word,tier mais alto em Valorant;;
+immortal,GIRIA,word,tier muito alto em Valorant;;
+ascendant,GIRIA,word,tier intermediario alto em Valorant;;
+platinum,GIRIA,word,tier intermediario em varios jogos;;
+gold,GIRIA,word,tier intermediario em varios jogos;;
+silver,GIRIA,word,tier baixo-intermediario em varios jogos;;
+bronze,GIRIA,word,tier baixo em varios jogos;;
+iron,GIRIA,word,tier mais baixo em alguns jogos;;
+hardstuck,GIRIA,word,jogador que nao consegue subir de elo ha muito tempo;;
+derank,GIRIA,word,cair de elo/divisao apos derrotas;;
+derankar,GIRIA,word,variante verbal de derank;;
+scripter,INS,word,acusacao de uso de scripts automatizados para vantagem ilicita;;
+reporta\s+esse,INS,phrase_pattern,diretiva de denuncia contra outro jogador (pode ser toxico no contexto);;
+vai\s+jogar\s+lol,INS,phrase_pattern,insulto tipico BR ironizando o adversario comparando a jogo considerado mais facil;;
+joga\s+roblox,INS,phrase_pattern,insulto BR ironizando o adversario como novato;;
+volta\s+pro\s+free,INS,phrase_pattern,insulto sugerindo que o adversario nao e bom o suficiente para o jogo pago;;
+esse\s+time\s+e\s+uma\s+merda,INS,phrase_pattern,ataque ao time como coletivo;;
+time\s+de\s+bot,INS,phrase_pattern,insulto ao time como grupo de jogadores fracos;;
+vou\s+te\s+reportar,AME,phrase_pattern,ameaca de denuncia formal no jogo (contexto de intimidacao);;
+vou\s+te\s+banir,AME,phrase_pattern,ameaca de banimento; geralmente blefe de intimidacao;
+vou\s+doxar\s+(vc|voc[eê]|voce|tu),AME,phrase_pattern,ameaca de exposicao de dados pessoais (doxing);;
+vou\s+te\s+doxar,AME,phrase_pattern,ameaca direta de doxing;;
+sei\s+onde\s+voc[eê]\s+mora,AME,phrase_pattern,ameaca de invasao de privacidade/violencia;;
+vou\s+(te\s+)?hackear,AME,phrase_pattern,ameaca de ataque a conta ou sistema;;
+vou\s+deletar\s+(sua\s+)?conta,AME,phrase_pattern,ameaca de destruicao de conta do adversario;;
+carai,OBS,word,variante fonetica de caralho; obscenidade generica;
+crl,OBS,word,abreviacao de caralho; obscenidade generica;
+vsf,OBS,word,abreviacao de vai se foder; obscenidade agressiva;
+pfv,GIRIA,word,abreviacao de por favor; neutro;
+plz,GIRIA,word,abreviacao de please; pedido neutro emprestado do ingles;
+pls,GIRIA,word,variante de plz; pedido neutro;
+thx,GIRIA,word,abreviacao de thanks; agradecimento neutro emprestado do ingles;
+ty,GIRIA,word,abreviacao de thank you; agradecimento neutro;
+np,GIRIA,word,no problem; resposta a agradecimento; neutro
+omg,GIRIA,word,oh my god; expressao de surpresa neutra;
+wtf,OBS,word,what the f***; expressao de surpresa com carga obscena leve;
+npc,GIRIA,word,non-player character; tambem usado para pessoa sem personalidade propria;
+npc,INS,word_ambiguous,ofensivo quando direcionado para chamar alguem de sem personalidade;;
+cansativo,INS,word,ataque leve a identidade; jogador que irrita o time;
+irritante,INS,word,ataque leve a identidade;;
+smurfando,GIRIA,word,jogando muito acima do nivel da partida;;
+cone,INS,word_ambiguous,jogador estatico ou que nao faz nada na partida;;
+trollando,GIRIA,word,ato de sabotar a partida;;
+kitou,GIRIA,word,sair da partida antes de acabar (rage quit);;
+quitar,GIRIA,word,abandonar o jogo;;
+horrivel,INS,word_ambiguous,ofensivo se direcionado ao desempenho de alguem;;
+tiltou,GIRIA,word,ficar irritado ou perder o controle emocional;;
+flamar,GIRIA,word,ato de xingar ou ser toxico no chat;;
+flamando,GIRIA,word,xingando ou atacando verbalmente no chat;;
+te\s+pegar\s+na\s+rua,AME,phrase_pattern,ameaca fisica classica;;
+cancer,DO,word,desejar doenca ou usar o termo de forma pejorativa extrema;;
+doente,INS,word_ambiguous,ofensivo quando direcionado para invalidar o colega;;
+manco,INS,word,ataque ao desempenho do jogador;;
+peso\s+morto,INS,phrase_pattern,jogador que nao ajuda em nada;;
+carregado,GIRIA,word,venceu sem fazer esforco; dependeu do time;;
+mono,GIRIA,word,jogador que so joga com um personagem;;
+frag,GIRIA,word,pontuacao de abates e mortes;;
+gankar,GIRIA,word,ataque surpresa coordenado contra um oponente;;
+miado,GIRIA,word,inimigo com pouca vida;;
+costinha,GIRIA,word,jogador que mata pelas costas ou flanqueia;;
+zepovinho,GIRIA,word,jogador oportunista que rouba kill ou se esconde;;
+fominha,GIRIA,word,jogador que nao passa a bola ou quer todos os abates;;
+quitador,GIRIA,word,jogador que costuma abandonar as partidas;;
+baitou,GIRIA,word,usou isca ou caiu na isca do adversario;;
+recheio,GIRIA,word,giria para termos baniveis ou pesados;;
+mutado,GIRIA,word,jogador silenciado no chat de voz ou texto;;
+solar,GIRIA,word,vencer um duelo individual contra outro jogador;;
+solado,INS,word_ambiguous,provocacao por perder duelo individual;;
+smurfzinho,GIRIA,word,diminutivo de smurf;;
+vtnm,OBS,word,abreviacao obscena ofensiva;;
+vai\s+tomar\s+no,OBS,phrase_pattern,padrao de inicio de frase altamente obscena;;
+vou\s+te\s+derrubar,AME,phrase_pattern,ameaca de ataque ddos ou derrubar a conexao;;
+vou\s+puxar\s+seu\s+ip,AME,phrase_pattern,ameaca de doxxing ou rastreamento;;
+mora\s+onde,AME,phrase_pattern,intimidacao ou ameaca indireta no chat;;
+asno,INS,word,ataque a inteligencia do colega de equipe;;
+braco\s+de\s+gesso,INS,phrase_pattern,jogador com mira muito ruim ou reflexo lento;;
+mira\s+pessima,INS,phrase_pattern,critica pesada ao desempenho di tiro;;
+preto,DO,word_ambiguous,pode ser neutro ou discurso de odio dependendo do contexto;;
+boludo,DO,word,termo xenofobico usado contra estrangeiros sul-americanos;;
+maconheiro,INS,word_ambiguous,estereotipo pejorativo para atacar o foco do jogador;;
+autista,DO,word,uso capacitista e pejorativo de condicao medica;;
+crioulo,DO,word,termo racista e pejorativo de cunho historico;;
+senzala,DO,word,referencia racista usada para segregar ou ofender;;
+tição,DO,word,ofensa racista voltada a cor da pele;;
+bichinha,DO,word,variante pejorativa e homofobica;;
+boiola,DO,word,termo homofobico classicamente ofensivo;;
+queima\s+rosca,DO,phrase_pattern,expressao homofobica e pejorativa;;
+sapatona,DO,word,variante agressiva e lesbofobica;;
+traveco,DO,word,termo transfobico altamente discriminatorio;;
+mulherzinha,INS,word_ambiguous,usado de forma machista para associar genero a fraqueza;;
+lugar\s+de\s+mulher,DO,phrase_pattern,padrao machista de exclusao no ambiente gamer;;
+volta\s+pra\s+cozinha,DO,phrase_pattern,ofensa machista classica em jogos online;;
+feminazi,DO,word,termo pejorativo de ataque ao genero/posicionamento;;
+mulher\s+nao\s+sabe\s+jogar,DO,phrase_pattern,estereotipo machista discriminatorio;;
+femea,INS,word_ambiguous,ofensivo quando usado de forma desumanizante no chat;;
+viadinho,DO,word,diminutivo popular de viado
+viadao,DO,word,aumentativo popular de viado
+bixa,DO,word,variante grafica informal de bicha
+bixinha,DO,word,diminutivo grafico informal de bicha (variante de bichinha)
+bichona,DO,word,aumentativo de bicha
+bixona,DO,word,variante grafica informal de bichona
+macaquinho,DO,word,diminutivo racista de macaco
+piranhinha,DO,word,diminutivo de piranha
+piranhona,DO,word,aumentativo de piranha
+idiotinha,INS,word,diminutivo de idiota
+burrinho,INS,word,diminutivo de burro
+burrao,INS,word,aumentativo de burro
+trouxinha,INS,word,diminutivo de trouxa; uso muito comum
+palhacinho,INS,word,diminutivo de palhaco
+chatinho,INS,word,diminutivo de chato
+fracassadinho,INS,word,diminutivo de fracassado
+retardadinho,INS,word,diminutivo de retardado (tambem capacitista)
+jumentinho,INS,word,diminutivo de jumento
+merdinha,OBS,word,diminutivo de merda
+bostinha,OBS,word,diminutivo de bosta
+putinha,OBS,word,diminutivo de puta
+putona,OBS,word,aumentativo de puta
+cuzinho,OBS,word,variante diminutiva relacionada a cuzao
+foder,OBS,word,verbo cuja forma e amplamente usada como obscenidade generica
+fodendo,OBS,word,variante gerundio de foder
+fodido,OBS,word,participio/adjetivo de foder; obscenidade ou expressao de situacao ruim
+fudido,OBS,word,variante grafica informal de fodido
+fodida,OBS,word,variante feminina de fodido
+fudida,OBS,word,variante grafica informal de fodida
+babaca,INS,word,ataque a identidade; insulto popular BR
+babacao,INS,word,aumentativo de babaca
+panaca,INS,word,ataque a identidade; insulto popular BR
+corno,INS,word,insulto popular BR (cuckold); muito comum em trash talk
+corninho,INS,word,diminutivo de corno
+burra,INS,word,variante feminina de burro
+nub,INS,word_ambiguous,variante grafica de noob; ofensivo apenas quando direcionado
+vacilao,INS,word,ataque ao desempenho/atitude
+vacilante,INS,word,variante adjetiva de vacilao
+pereba,INS,word,insulto regional BR para algo/alguem de baixa qualidade
+mocorongo,INS,word,insulto regional BR (cafona; sem traquejo)
+pangare,INS,word,insulto BR (cavalo velho); usado para jogador fraco
+jegue,INS,word,sinonimo regional de jumento
+paspalho,INS,word,insulto BR para pessoa tola/desajeitada
+mongol,INS,word,insulto capacitista popular; referencia pejorativa a sindrome de down
+mongolzinho,INS,word,diminutivo pejorativo de mongol; tambem capacitista
+monguinho,INS,word,variante grafica de mongolzinho; tambem capacitista
+estupido,INS,word,ataque a identidade
+estupida,INS,word,variante feminina de estupido
+nojento,INS,word,ataque a identidade; expressa repulsa
+anta,INS,word,insulto BR (literalmente tapir) para pessoa lenta/tola
+tosco,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem usado para objetos/situacoes
+lesado,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem significa machucado
+ridiculo,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem descreve situacoes
+miseravel,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem significa pobre
+praga,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem significa pesteinfestacao
+praguinha,INS,word_ambiguous,diminutivo de praga; ofensivo apenas quando direcionado
+insuportavel,INS,word_ambiguous,ofensivo apenas quando direcionado; tambem descreve situacoes
+sem\s+nocao,INS,phrase_pattern,ataque a identidade/atitude
+sem\s+cerebro,INS,phrase_pattern,ataque a inteligencia
+sem\s+moral,INS,phrase_pattern,ataque a identidade/conduta
+erro\s+primario,INS,phrase_pattern,mofa de erro basico no jogo
+pior\s+jogador,INS,phrase_pattern,ataque direto ao desempenho
+cabeca\s+de\s+vento,INS,phrase_pattern,insulto BR (pessoa distraida/tola)
+cabeca\s+de\s+bagre,INS,phrase_pattern,insulto BR (pessoa tola)
+ze\s+ruela,INS,phrase_pattern,insulto BR (pessoa irrelevante/joao ninguem)
+otaku\s+fedido,INS,phrase_pattern,insulto combinando estereotipo e obscenidade leve
+capivara\s+de\s+elo,INS,phrase_pattern,meme BR para jogador de baixo desempenho no ranqueado
+fraco\s+demais,INS,phrase_pattern,ataque intensificado ao desempenho
+joga\s+nada,INS,phrase_pattern,ataque ao desempenho
+vai\s+se\s+ferrar,INS,phrase_pattern,provocacao/ameaca leve de consequencia
+credo\s+que\s+lixo,INS,phrase_pattern,expressao de desprezo intensificada
+escroto,OBS,word,obscenidade/insulto popular BR
+escrota,OBS,word,variante feminina de escroto
+cabaco,OBS,word,obscenidade popular BR
+caraio,OBS,word,variante fonetica de caralho
+ze\s+buceta,OBS,phrase_pattern,insulto vulgar BR (pessoa irrelevante)
+gayzinho,DO,word,termo pejorativo e homofobico
+kys,AME,word,abreviacao de kill yourself; incitamento a autolesao
+se\s+mata,AME,phrase_pattern,incitamento a autolesao
+elojob,GIRIA,word,servico de boosting de elo mediante pagamento
+feedando,GIRIA,word,variante gerundio de feed
+interando,GIRIA,word,variante gerundio de int (morrer intencionalmente)
+intando,GIRIA,word,variante gerundio de int
+desgracadinho,OBS,word,diminutivo de desgracado

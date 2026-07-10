@@ -1,0 +1,16 @@
+{
+  "name": "twitch-chat-scraper",
+  "version": "2.0.0",
+  "description": "Reads Twitch chat for a list of channels and saves messages to CSV",
+  "main": "twitch_chat_scraper.js",
+  "scripts": {
+    "start": "node twitch_chat_scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "tmi.js": "^1.8.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

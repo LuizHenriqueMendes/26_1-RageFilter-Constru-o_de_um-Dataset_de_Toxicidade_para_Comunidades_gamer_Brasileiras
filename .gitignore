@@ -1,0 +1,33 @@
+# Dependências
+node_modules/
+__pycache__/
+*.pyc
+
+# Credenciais (use config.example.js como template)
+config.js
+
+# Dados brutos/intermediários grandes — regenerados pelo pipeline (ver README)
+data/chat_logs/
+data/final_chat.csv
+data/final_chat_labeled.csv
+data/non_toxic_messages.csv
+
+# Artefatos de depuração
+dup_debug.txt
+
+# Não relacionado a este TCC
+PI/
+
+# Editor / ambiente local
+.claude/settings.local.json
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
