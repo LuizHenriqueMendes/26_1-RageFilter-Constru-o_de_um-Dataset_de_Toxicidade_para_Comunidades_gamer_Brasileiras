@@ -1,7 +1,9 @@
 # RageFilter
 
 **Título do TCC:** RageFilter: Construção de um Dataset de Toxicidade para Comunidades *gamer* Brasileiras
+
 **Alunos:** Luiz Henrique Mendes de Oliveira Castro
+
 **Semestre de Defesa:** 2026-1
 
 [PDF do TCC](RageFilter.pdf)
